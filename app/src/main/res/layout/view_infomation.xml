@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_lines_gray"
+    android:orientation="horizontal"
+    android:layout_height="72dp"
+    android:layout_margin="5dp"
+    >
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RainFall"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3cm"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="210dp"/>
+
+</LinearLayout>
