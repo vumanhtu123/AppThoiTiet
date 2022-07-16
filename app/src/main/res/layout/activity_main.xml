@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context=".MainActivity"
+    tools:context=".Activity.MainActivity"
     android:background="@drawable/gradient"
     android:orientation="vertical"
     >
@@ -16,22 +16,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.SearchView
-        android:id="@+id/iv_Search"
+        android:id="@+id/sv_Search"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:layout_marginTop="4dp"
         android:src="@drawable/icon11"
-        app:layout_constraintEnd_toStartOf="@+id/iv_Navigation"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/iv_Head"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/iv_Navigation"
+        android:id="@+id/iv_Head"
         android:layout_width="44dp"
         android:layout_height="37dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="28dp"
-        android:layout_toRightOf="@id/iv_Search"
+        android:layout_toRightOf="@id/sv_Search"
         android:src="@drawable/icon12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -41,9 +42,9 @@
         android:layout_height="30dp"
         android:layout_marginTop="16dp"
         app:ci_drawable="@drawable/background_circleindicator"
-        app:layout_constraintEnd_toStartOf="@+id/iv_Navigation"
+        app:layout_constraintEnd_toStartOf="@+id/iv_Head"
         app:layout_constraintHorizontal_bias="0.548"
-        app:layout_constraintStart_toEndOf="@+id/iv_Search"
+        app:layout_constraintStart_toEndOf="@+id/sv_Search"
         app:layout_constraintTop_toTopOf="@+id/materialToolbar" />
 
     <RelativeLayout
